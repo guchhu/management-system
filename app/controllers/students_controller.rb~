@@ -11,7 +11,7 @@ class StudentsController < ApplicationController
   end
 def post
   @k = Student.where(:email => params["email"])
-  raise @k.inspect
+ 
 
 
 end
