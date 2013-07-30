@@ -1,0 +1,11 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/Fixtures.html
+
+one:
+  tname: MyString
+  position: 
+  dob: 2013-07-19
+
+two:
+  tname: MyString
+  position: 
+  dob: 2013-07-19

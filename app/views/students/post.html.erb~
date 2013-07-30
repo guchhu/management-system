@@ -1,0 +1,18 @@
+<% @k.each do |k| %>
+<table>
+<tr>
+<td>email</td>
+<td> <%= k.email %> </td>
+</tr>
+</table>
+<% end %>
+<style>
+
+table{
+width:200px;
+height:100px;
+color:red;
+border:2px solid red;
+background:pink;
+margin-bottom:20px;
+</style>

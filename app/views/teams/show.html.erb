@@ -1,0 +1,21 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <b>Tname:</b>
+  <%= @team.tname %>
+</p>
+
+<p>
+  <b>Position:</b>
+  <%= @team.position %>
+</p>
+
+
+<p>
+  <img src="http://www.hdwallpapers.in/walls/team_india_2011_world_cup-HD.jpg",width="200", height="150" border="1">
+</p>
+
+
+
+<%= link_to 'Edit', edit_team_path(@team) %> |
+<%= link_to 'Back', teams_path %>
